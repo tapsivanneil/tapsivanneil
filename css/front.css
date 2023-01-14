@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #181818;
+}
+
+.navHolder{
+    
+    font-family: 'Poppins';
+    margin: 5%;
+    font-size: 13px;
+    text-align: right;
+}
+
+.navButton{
+    margin-left: 2%;
+    margin-right: 2%;
+    text-decoration: none;
+    color: white;
+    
+}
+
+.navName{
+    font-family: 'Poppins';
+    font-size: 13px;
+    position: absolute;
+    left: 5%;
+    text-decoration: none;
+    color: white;
+
+
+}
