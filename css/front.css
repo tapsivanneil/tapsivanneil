@@ -31,6 +31,32 @@ body{
     left: 5%;
     text-decoration: none;
     color: white;
+}
 
+.greeting{
+    margin-left: 25%;
+    margin-top: 250px;
+    color: 	#eeba30;
+    font-size: 50px;
+    font-size: 100px;
+}
 
+.subtext{
+    color: white;
+    margin-top: -18px;
+    margin-left: 25%;
+    font-family: 'Poppins';
+    font-weight: 100;
+}
+
+.midSection{
+    margin-top: -5%;
+    display: flex;
+}
+
+.profilePic{
+    position: absolute;
+    right: 150px;
+    display: flex;
+    height: 800px;
 }
