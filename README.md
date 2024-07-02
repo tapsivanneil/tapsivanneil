@@ -1,32 +1,34 @@
 
 #
 
-[![Cover](https://drive.google.com/uc?export=view&id=1OGOKYZNt6vDvfkj_C5kJmqty8u0jYN_d)](https://github.com/emmanpbarrameda/)
+<!-- [![Cover](https://drive.google.com/uc?export=view&id=1OGOKYZNt6vDvfkj_C5kJmqty8u0jYN_d)](https://github.com/tapsivanneil/) -->
 
-Hello world 👋🏾! I'm <b>Ivan Neil B. Tapel</b> from the Philippines, a passionate individual who finds joy in creating and exploring the world of desktop development.
-
-My programming journey began when I was just 16 years old as a Minecraft server owner. This experience ignited my interest in programming, and since then, I have been dedicated to studying the Java programming language. During my time at Vicente Madrigal Integrated School as a senior-high student, pursuing the TVL-ICT track, I excelled in Java and was recognized as the <b>"Best ICT Student"</b> upon graduation.
-
-Since then, I have embarked on a freelancing journey during the covid-19 lockdown, specializing in the creation of desktop and mobile applications.
-
-Currently, I am a third-year college student pursuing a Bachelor of Science in Information Technology at the University of Rizal System Binangonan. My studies revolve around <b>Object Oriented Programming, Designing, and Web Development</b>.
-<br>
-</br>
+  Hello world! I'm <b>Ivan Neil B. Tapel</b>,<br> <sb><span my-age></span> years old</sb> from the Philippines.
+  I am a passionate individual who finds joy
+  in creating and exploring the world of desktop development.<br><br>My interest in computers began when I was
+  just <sb>15 years old</sb>. This experience ignited my interest in computers, and since
+  then, I have been dedicated to different components of computer architecture that leads to programming. During my time at General Mariano Alvarez Techinical Highschool
+  , I pursued this track and even passed  <b>National Competency II</b> in <b>Computer System Servicing</b> <br><br>During my college journey, 
+  I have been on an exciting freelancing journey that began during my second year and continues until today, as <sb>I am still accepting clients</sb>.<br>
+  I have been offering my freelancing service to <b>develop various applications</b>, catering to various needs such as capstones projects, systems, and even games.<br><br>
+  Currently, I am a <b>fourth-year college</b> student pursuing a Bachelor of Science in Computer Science at the Cavite State University.
+  My skills revolve around programming Algorithm and Theories, Graphic Designing, Web
+  Development, and Computer System Servicing.</p>
 
 <!-- Social -->
 <table width="100%" align="center">
   <tr>
     <td align="center">
-      <a href="https://emmanpbarrameda.github.io">
+      <a href="https://tapsivanneil.github.io">
         <strong>Visit My Portfolio</strong>
         <br />
         <img src="https://avatars.githubusercontent.com/u/67356375?v=4" alt="Profile Image" width="180" style="border-radius: 50%;" />
       </a>
       <br />
-      <p>Check out <a href="https://emmanpbarrameda.github.io" target="_blank">my portfolio</a> to learn more about me!</p>
+      <p>Check out <a href="https://tapsivanneil.github.io" target="_blank">my portfolio</a> to learn more about me!</p>
     </td>
     <td align="center">
-      <h3>Please consider visiting my portfolio at <a href="https://emmanpbarrameda.github.io">https://emmanpbarrameda.github.io</a>. It provides a comprehensive view of my abilities and achievements. Thank you!</h3>
+      <h3>Please consider visiting my portfolio at <a href="https://tapsivanneil.github.io">https://tapsivanneil.github.io</a>. It provides a comprehensive view of my abilities and achievements. Thank you!</h3>
       <br />
       <br />
     </td>
@@ -41,30 +43,30 @@ Currently, I am a third-year college student pursuing a Bachelor of Science in I
 
 <p align="center"> 
   Visitor count<br>
-  <img src="https://profile-counter.glitch.me/emmanpbarrameda/count.svg" />
+  <img src="https://profile-counter.glitch.me/tapsivanneil/count.svg" />
 </p>
 
 
 
 ## Things I am passionate about 👩🏾‍💻
 
-- Desktop Application Development
-- Android Application Development
+- Web Application Development
+- Game Development
 - Graphic Designing
 
 ## Stats
 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-start; background-color: #0D1117; padding: 20px; border-radius: 6px;">
   <a href="https://github.com/anuraghazra/github-readme-stats" style="flex-basis: 48%; text-decoration: none;">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=emmanpbarrameda&layout=compact&langs_count=10&theme=dark" alt="Top Languages" style="width: 30%">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tapsivanneil&layout=compact&langs_count=10&theme=dark" alt="Top Languages" style="width: 30%">
   </a>
   
   <a href="https://github.com/anuraghazra/github-readme-stats" style="flex-basis: 48%; text-decoration: none;">
-    <img src="https://github-readme-stats.vercel.app/api?username=emmanpbarrameda&show_icons=true&count_private=true&theme=dark" alt="GitHub Stats" style="width: 30%">
+    <img src="https://github-readme-stats.vercel.app/api?username=tapsivanneil&show_icons=true&count_private=true&theme=dark" alt="GitHub Stats" style="width: 30%">
   </a>
   
-  <a href="https://streak-stats.demolab.com/?user=emmanpbarrameda" style="flex-basis: 100%; text-decoration: none;">
-    <img src="https://streak-stats.demolab.com/?user=emmanpbarrameda&theme=dark" alt="GitHub Streak Stats" style="width: 30%">
+  <a href="https://streak-stats.demolab.com/?user=tapsivanneil" style="flex-basis: 100%; text-decoration: none;">
+    <img src="https://streak-stats.demolab.com/?user=tapsivanneil&theme=dark" alt="GitHub Streak Stats" style="width: 30%">
   </a>
 </div>
 
@@ -73,9 +75,9 @@ Currently, I am a third-year college student pursuing a Bachelor of Science in I
 ## Friends
 
 <!-- FIRST ROW -->
-| [@justine91514](https://github.com/justine91514) | [@ericksenn](https://github.com/ericksenn) | [@RachQuio](https://github.com/RachQuio) | [@carandave](https://github.com/carandave) |
+| [@harvysdlc](https://github.com/harvysdlc) | [@JoshCaramat](https://github.com/JoshCaramat) | [@prncssll](https://github.com/prncssll) | [@carandave](https://github.com/happydeigh) |
 | --- | --- | --- | --- |
-| [<img src="https://avatars.githubusercontent.com/justine91514?s=100" width="100" height="100">](https://github.com/justine91514) | [<img src="https://avatars.githubusercontent.com/ericksenn?s=100" width="100" height="100">](https://github.com/ericksenn) | [<img src="https://avatars.githubusercontent.com/RachQuio?s=100" width="100" height="100">](https://github.com/RachQuio) | [<img src="https://avatars.githubusercontent.com/carandave?s=100" width="100" height="100">](https://github.com/carandave) |
+| [<img src="https://avatars.githubusercontent.com/harvysdlc?s=100" width="100" height="100">](https://github.com/JoshCaramat) | [<img src="https://avatars.githubusercontent.com/prncssll?s=100" width="100" height="100">](https://github.com/prncssll) | [<img src="https://avatars.githubusercontent.com/RachQuio?s=100" width="100" height="100">](https://github.com/happydeigh) | [<img src="https://avatars.githubusercontent.com/carandave?s=100" width="100" height="100">](https://github.com/happydeigh) |
 
 <!-- SECOND ROW -->
 <!--
@@ -87,17 +89,17 @@ Currently, I am a third-year college student pursuing a Bachelor of Science in I
 
 ## Get in touch
 
-<a href="https://emmanpbarrameda.github.io" target="_blank"><img src="https://img.shields.io/badge/My Portfolio-%20-blue?style=for-the-badge&logo=web"></a>
+<a href="https://tapsivanneil.github.io" target="_blank"><img src="https://img.shields.io/badge/My Portfolio-%20-blue?style=for-the-badge&logo=web"></a>
 &nbsp;&nbsp;
-<a href="mailto:emmanuelbarrameda1@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Email-%20-red?style=for-the-badge&logo=gmail"></a>
+<a href="mailto:tapsivanneil@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Email-%20-red?style=for-the-badge&logo=gmail"></a>
 &nbsp;&nbsp;
-<a href="https://facebook.com/emmanpbarrameda/" target="_blank"><img src="https://img.shields.io/badge/Facebook-%20-blue?style=for-the-badge&logo=facebook"></a>
+<a href="https://facebook.com/tapsivanneil/" target="_blank"><img src="https://img.shields.io/badge/Facebook-%20-blue?style=for-the-badge&logo=facebook"></a>
 &nbsp;&nbsp;
-<a href="https://t.me/emmanpbarrameda/" target="_blank"><img src="https://img.shields.io/badge/Telegram-%20-blue?style=for-the-badge&logo=telegram"></a>
+<a href="https://t.me/tapsivanneil/" target="_blank"><img src="https://img.shields.io/badge/Telegram-%20-blue?style=for-the-badge&logo=telegram"></a>
 &nbsp;&nbsp;
-<a href="https://linkedin.com/in/emmanpbarrameda/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-%20-blue?style=for-the-badge&logo=linkedin"></a>
+<a href="https://linkedin.com/in/tapsivanneil/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-%20-blue?style=for-the-badge&logo=linkedin"></a>
 &nbsp;&nbsp;
-<a href="https://github.com/emmanpbarrameda/" target="_blank"><img src="https://img.shields.io/badge/GitHub-%20-black?style=for-the-badge&logo=github"></a>
+<a href="https://github.com/tapsivanneil/" target="_blank"><img src="https://img.shields.io/badge/GitHub-%20-black?style=for-the-badge&logo=github"></a>
 
 
 
@@ -107,4 +109,4 @@ Currently, I am a third-year college student pursuing a Bachelor of Science in I
 </br>
 
 ------------
-<p align="center">Copyright © 2023 emmanpbarrameda.<br>All rights reserved.</p
+<p align="center">Copyright © 2023 tapsivanneil.<br>All rights reserved.</p
