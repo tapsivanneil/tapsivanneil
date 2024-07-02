@@ -1,29 +1,1882 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="css/front.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>tapsivanneil</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  <title>Ivan Neil</title>
+  <meta name="description" content="Portfolio Website of Ivan Neil Tapel" />
+  <meta http-equiv="imagetoolbar" content="no" />
+
+  <!-- https://search.google.com/search-console/about VERIFICATION -->
+  <meta name="google-site-verification" content="R2CZsvgL5dM3rZKpdZSmD0bqZ87gGbV84_0OiJ-_DOA" />
+
+  <!-- SITEMAP NEEDS! 
+  https://sosteve.medium.com/your-next-js-website-isnt-on-google-time-to-fix-it-c8f92f515e35
+  -->
+
+
+  <!--==================== OPEN GRAPH META TAGS (FOR SOCIAL MEDIA PREVIEW) ===================== -->
+  <!-- Facebook -->
+  <meta property="og:title" content="Ivan Neil Tapel - Portfolio">
+  <meta property="og:description" content="Portfolio website of Ivan Neil Tapel.">
+  <meta property="og:image" content="https://i.imgur.com/ceRkZe6.png">
+  <meta property="og:url" content="https://tapsivanneil.github.io/">
+  <meta property="og:type" content="website">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Ivan Neil Tapel - Portfolio">
+  <meta name="twitter:description" content="Portfolio website of Ivan Neil Tapel.">
+  <meta name="twitter:image" content="https://i.imgur.com/ceRkZe6.png">
+  <meta name="twitter:url" content="https://tapsivanneil.github.io/">
+
+  <!-- Discord -->
+  <meta property="twitter:site" content="@emmanpbarrameda">
+  <meta property="twitter:creator" content="@emmanpbarrameda">
+  <meta property="twitter:title" content="Ivan Neil Tapel - Portfolio">
+  <meta property="twitter:description" content="Portfolio website of Ivan Neil Tapel.">
+  <meta property="twitter:image" content="https://i.imgur.com/ceRkZe6.png">
+
+  <!-- Google -->
+  <meta itemprop="name" content="Ivan Neil Tapel - Portfolio">
+  <meta itemprop="description" content="Portfolio website of Ivan Neil Tapel.">
+  <meta itemprop="image" content="https://i.imgur.com/ceRkZe6.png">
+
+  <!-- Pinterest -->
+  <!-- Add Pinterest specific meta tags if needed -->
+
+  <!-- Other Website -->
+  <!-- Add specific meta tags for other websites if needed -->
+
+
+  <!-- STRUCTURED DATA -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Ivan Neil Tapel - Portfolio",
+      "description": "Portfolio Website of Ivan Neil Tapel",
+      "url": "https://tapsivanneil.github.io/",
+      "image": "https://i.imgur.com/ceRkZe6.png"
+    }
+  </script>
+
+
+  <!--==================== UNICONS ====================-->
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+
+  <!-- ====================PWA================== -->
+  <link rel="manifest" href="manifest.json" />
+  <!-- ios support -->
+  <link rel="apple-touch-icon" href="assets/img/PwaImages/ios/32.png" />
+  <link rel="apple-touch-icon" href="assets/img/PwaImages/ios/72.png" />
+  <link rel="apple-touch-icon" href="assets/img/PwaImages/ios/100.png" />
+  <link rel="apple-touch-icon" href="assets/img/PwaImages/ios/128.png" />
+  <link rel="apple-touch-icon" href="assets/img/PwaImages/ios/144.png" />
+  <link rel="apple-touch-icon" href="assets/img/PwaImages/ios/152.png" />
+  <link rel="apple-touch-icon" href="assets/img/PwaImages/ios/192.png" />
+  <link rel="apple-touch-icon" href="assets/img/PwaImages/ios/256.png" />
+  <link rel="apple-touch-icon" href="assets/img/PwaImages/ios/512.png" />
+  <meta name="apple-mobile-web-app-status-bar" content="#5779E0" />
+  <!-- For Firefox and Firefox for Android -->
+  <meta name="msapplication-navbutton-color" content="#5779E0">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#5779E0">
+  <!-- For Chrome, Opera, and Safari -->
+  <meta name="theme-color" content="#5779E0">
+
+  <!-- ============FAVICONS============== -->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets//img/favicons/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png" />
+  <link rel="icon" type="image/x-icon" href="assets/img/favicons/favicon.ico" />
+
+  <!--==================== SWIPER CSS ====================-->
+  <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+  <!--==================== ANIMATE CSS ====================-->
+  <link rel="stylesheet" href="assets/css/animate.min.css" />
+
+  <!--==================== CSS ====================-->
+  <link rel="stylesheet" href="assets/css/styles.css" />
+
+  <!--==================== MATERIAL ICONS ====================-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
 </head>
+
+
 <body>
-    <div class="navHolder">
-        <a class="navName" href="#">Ivan Neil Tapel</a>
-        <a class="navButton" href="#">Profile</a>
-        <a class="navButton" href="#">Projects</a>
-        <a class="navButton" href="#">Graphic Arts</a>
-        <a class="navButton" href="#">About</a>
-        <a class="navButton" href="#">Contact</a>
+
+
+  <!-- ===================== LOADER ====================  -->
+  <!-- <div id="loading" class="loading">
+    <div class="loader">
+      <img src="assets/img/emmanpbarrameda-logo-1x1-white_transparent.png" alt="Loading Image">
+      <div class="bar">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <p class="loading__description">Welcome! Just a moment . . .</p>
+    </div>
+    <p class="loading__copyright">Copyright © <span current-year></span> emmanpbarrameda<br>All rights reserved.</p>
+  </div>  -->
+
+  <!-- Function to update the loading__description -->
+  <script>
+    function updateLoadingText() {
+      const loadingDescription = document.querySelector(".loading__description");
+      if (loadingDescription.textContent === "Welcome! Just a moment . . .") {
+        loadingDescription.textContent = "Getting things ready for you . . .";
+      } else {
+        loadingDescription.textContent = "Welcome! Just a moment . . .";
+      }
+    }
+  
+    // Call the updateLoadingText function every 3 seconds
+    setInterval(updateLoadingText, 3000);
+  </script>  
+
+  <!-- ===================== CIRCLE BG ANIMATION LOOP ==================== -->
+  <div class="circle_bubble__anim">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+
+  <!--==================== HEADER ====================-->
+  <header class="header" id="header">
+    <!-- scroll progress -->
+    <div class="scroll_progress"></div>
+
+    <!-- nav menu -->
+    <nav class="nav container">
+      <a href="#" class="nav__logo noSelect">ivanneiltapel</a>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list grid">
+          <li class="nav__item">
+            <a href="#home" class="nav__link noSelect active-link">
+              <i class="uil uil-estate nav__icon"></i> Home
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#about" class="nav__link noSelect">
+              <i class="uil uil-user nav__icon"></i> About
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#skills" class="nav__link noSelect">
+              <i class="uil uil-file-alt nav__icon"></i> Skills
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#services" class="nav__link noSelect">
+              <i class="uil uil-briefcase-alt nav__icon"></i> Services
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#projects" class="nav__link noSelect">
+              <i class="uil uil-scenery nav__icon"></i> Projects
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#contact" class="nav__link noSelect">
+              <i class="uil uil-message nav__icon"></i> Contact
+            </a>
+          </li>
+        </ul>
+        <i class="uil uil-times nav__close noSelect" id="nav-close"></i>
+      </div>
+
+      <div class="nav__btns">
+        <!-- theme change button -->
+        <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+        <!-- navigation button -->
+        <div class="nav__toggle noSelect" id="nav-toggle">
+          <i class="uil uil-sort-amount-up nav-drawer"></i>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!--==================== MAIN ====================-->
+
+  <main class="main">
+
+    <!--==================== HOME ====================-->
+    <section class="home section" id="home">
+      <div class="home__container container grid">
+        <div class="home__content grid">
+          <div class="home__social">
+
+            <a href="" target="_blank" class="home__social-icon linkedin_Link" title="LinkedIn Profile">
+              <i class="uil uil-linkedin-alt"></i>
+            </a>
+
+            <a href="" target="_blank" class="home__social-icon github_Link" title="GitHub">
+              <i class="uil uil-github-alt"></i>
+            </a>
+
+            <a target="_blank" class="home__social-icon telegram_Link" title="Telegram Account">
+              <i class="uil uil-telegram-alt"></i>
+            </a>
+          </div>
+
+          <div class="home__img">
+            <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink">
+              <mask id="mask0" mask-type="alpha">
+                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+              </mask>
+              <g mask="url(#mask0)">
+                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                <image class="home__blob-img" x="0" xlink:href="assets/img/1X1_1.png"></image>
+              </g>
+            </svg>
+          </div>
+
+          <div class="home__data">
+            <h1 class="home__title">Hello world!<br>My name is <color>Ivan Neil</color>
+            </h1>
+            <h3 class="home__work">.</h3>
+            <p class="home__description">
+              Programming is my creative language,<br>where lines of code come together to create endless possibilities!
+            </p>
+            <a href="#about" class="button button--flex">
+              Read More<i class="uil uil-message button__icon"></i>
+            </a>
+          </div>
+        </div>
+        
+        <!-- START 
+        <div class="home__scroll">
+          <a href="#about" class="home__scroll-button button--flex">
+            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+            <span class="home__scroll-name">Scroll Down</span>
+            <i class="uil uil-arrow-down home__scroll-arrow"></i>
+          </a>
+        </div>
+        -->
+        
+      </div>
+
+    </section>
+
+  </main>
+
+  <!--==================== ABOUT ====================-->
+
+  <section class="about section reveal fade-bottom" id="about">
+    <h2 class="section__title">About Me</h2>
+    <span class="section__subtitle">My Introduction</span>
+
+    <div class="about__container container grid">
+      <img src="assets/img/about-me3.png" alt="" class="about__img" />
+
+      <div class="about__data">
+        <p class="about__description">
+          Hello world! I'm <colorTextHighlight>Ivan Neil B. Tapel</colorTextHighlight>,<br> <sb><span my-age></span> years old</sb> from the Philippines.
+          I am a passionate individual who finds joy
+          in creating and exploring the world of desktop development.<br><br>My interest in computers began when I was
+          just <sb>15 years old</sb>. This experience ignited my interest in computers, and since
+          then, I have been dedicated to different components of computer architecture that leads to programming. During my time at General Mariano Alvarez Techinical Highschool
+          , I pursued this track and even passed  <colorTextHighlight>National Competency II</colorTextHighlight> in <colorTextHighlight>Computer System Servicing</colorTextHighlight> <br><br>During my college journey, 
+          I have been on an exciting freelancing journey that began during my second year and continues until today, as <sb>I am still accepting clients</sb>.<br>
+          I have been offering my freelancing service to <colorTextHighlight>develop various applications</colorTextHighlight>, catering to various needs such as capstones projects, systems, and even games.<br><br>
+          Currently, I am a <colorTextHighlight>fourth-year college</colorTextHighlight> student pursuing a Bachelor of Science in Computer Science at the Cavite State University.
+          My skills revolve around programming Algorithm and Theories, Graphic Designing, Web
+          Development, and Computer System Servicing.</p>
+        </p>
+
+        <!--
+        <div class="about__info">
+
+          
+          <div>
+            <span class="about__info-title">7.5+</span>
+            <span class="about__info-name">Years <br />
+              experience</span>
+          </div>
+
+          <div>
+            <span class="about__info-title">20+</span>
+            <span class="about__info-name">Projects <br />
+              completed</span>
+          </div>
+
+          <div>
+            <span class="about__info-title">04+</span>
+            <span class="about__info-name">Companies <br />
+              worked</span>
+          </div>
+          
+        </div>
+        -->
+
+        <div class="about__buttons">
+          <a download="" href="assets/pdf/emmanpbarrameda.pdf" class="button button--flex">
+            Download Resume<i class="uil uil-download-alt button__icon"></i></a>
+        </div>
+      </div>
     </div>
 
-    <div class="midSection">
-        <h1 class="greeting">bonjour</h1>
-        <img class="profilePic" src="images/profile.png" alt="profile">
+  </section>
+
+
+  <!--==================== CERTIFICATES ====================-->
+
+  <section class="certificates section">
+    <h2 class="section__title">Certificates</h2>
+    <span class="section__subtitle">Showcasing my awards and certificates</span>
+
+    <!-- Top text description -->
+    <div class="certificate-description section__subtitle">
+      <p id="certificate-description-text">BEST IN ICT Certificate</p>
     </div>
-    <div>
-        <h4 class="subtext">I am Ivan Neil Tapel</h4>
+
+    <!-- Slider main container -->
+    <div class="swiper-container gallery__container">
+      
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper gallery__swiper">
+        
+        
+        <!-- Slides -->
+        <div class="swiper-slide gallery__slide" data-description="National Competency II Certificate">
+          <img src="assets\img\certs\NCII_CERT.png" alt="National Competency II Certificate">
+          <!-- VIEW BUTTON -->
+          <div class="gallery__slide-content">
+            <a href="https://raw.githubusercontent.com/emmanpbarrameda/tapsivanneil.github.io/main/assets/img/certs/cert-best-in-ict.jpeg"
+              target="_blank" class="button button--flex button--super--small gallery__button">View<i class="uil uil-focus button__icon_large"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Slides -->
+        <div class="swiper-slide gallery__slide" data-description="Senior High Graduate Diploma">
+          <img src="assets\img\certs\SHS_GRADUATE_DIPLOMA.png" alt="Senior High Graduate Diploma">
+          <!-- VIEW BUTTON -->
+          <div class="gallery__slide-content">
+            <a href="https://raw.githubusercontent.com/emmanpbarrameda/tapsivanneil.github.io/main/assets/img/certs/cert-best-in-ict.jpeg"
+              target="_blank" class="button button--flex button--super--small gallery__button">View<i class="uil uil-focus button__icon_large"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="swiper-slide gallery__slide" data-description="Junior High Completer Diploma">
+          <img src="assets\img\certs\JHS_COMPLETER_DIPLOMA.png" alt="Junior High Completer Diploma">
+          <!-- VIEW BUTTON -->
+          <div class="gallery__slide-content">
+            <a href="https://raw.githubusercontent.com/emmanpbarrameda/tapsivanneil.github.io/main/assets/img/certs/cert-best-in-ict.jpeg"
+              target="_blank" class="button button--flex button--super--small gallery__button">View<i class="uil uil-focus button__icon_large"></i>
+            </a>
+          </div>
+        </div>
+        
+        <div class="swiper-slide gallery__slide" data-description="Elementary Graduate Diploma">
+          <img src="assets\img\certs\ELEMENTARY_GRADUATE_DIPLOMA.png" alt="Elementary Graduate Diploma">
+          <!-- VIEW BUTTON -->
+          <div class="gallery__slide-content">
+            <a href="https://raw.githubusercontent.com/emmanpbarrameda/tapsivanneil.github.io/main/assets/img/certs/cert-best-in-ict.jpeg"
+              target="_blank" class="button button--flex button--super--small gallery__button">View<i class="uil uil-focus button__icon_large"></i>
+            </a>
+          </div>
+        </div>
+
+   
+      </div>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+
+      <!-- Add Pagination -->
+      <div class="swiper-pagination gallery__pagination"></div>
     </div>
-    
+  </section>
+
+
+
+
+  
+
+
+
+  <!--==================== SKILLS ====================-->
+
+  <section class="skills section reveal fade-bottom" id="skills">
+    <h2 class="section__title">Skills</h2>
+    <span class="section__subtitle">My tech stack</span>
+    <div class="skills__container container grid">
+
+
+      <div class="skills__container-box">
+        <img class="skills__container-img" src="assets/img/skills/java.svg" alt="java" />
+        <div class="skills__container-name">Java</div>
+      </div>
+
+      <!-- <div class="skills__container-box">
+        <img class="skills__container-img" src="assets/img/skills/android.svg" alt="android-studio" />
+        <div class="skills__container-name">Android</div>
+      </div>
+
+      <div class="skills__container-box">
+        <img class="skills__container-img" src="assets/img/skills/c.svg" alt="c" />
+        <div class="skills__container-name">C</div>
+      </div> -->
+
+      <div class="skills__container-box">
+        <img class="skills__container-img" src="assets/img/skills/c++.svg" alt="c++" />
+        <div class="skills__container-name">C++</div>
+      </div>
+
+      <!-- <div class="skills__container-box">
+        <img class="skills__container-img" src="assets/img/skills/vb.net.svg" alt="vb.net" />
+        <div class="skills__container-name">VB.NET</div>
+      </div> -->
+
+      <div class="skills__container-box">
+        <img class="skills__container-img" src="assets/img/skills/mysql.svg" alt="mysql" />
+        <div class="skills__container-name">MySQL</div>
+      </div>
+
+      <div class="skills__container-box">
+        <img class="skills__container-img" src="assets/img/skills/html.svg" alt="html" />
+        <div class="skills__container-name">HTML</div>
+      </div>
+
+      <div class="skills__container-box">
+        <img class="skills__container-img" src="assets/img/skills/css.svg" alt="css" />
+        <div class="skills__container-name">CSS</div>
+      </div>
+
+      <div class="skills__container-box">
+        <img class="skills__container-img" src="assets/img/skills/bootstrap.svg" alt="bootstrap" />
+        <div class="skills__container-name">Bootstrap</div>
+      </div>
+
+      <div class="skills__container-box">
+        <img class="skills__container-img" src="assets/img/skills/javascript.svg" alt="javascript" />
+        <div class="skills__container-name">Javascript</div>
+      </div>
+
+      <div class="skills__container-box">
+        <img class="skills__container-img" src="assets/img/skills/php.svg" alt="php" />
+        <div class="skills__container-name">PHP</div>
+      </div>      
+
+      <div class="skills__container-box">
+        <img class="skills__container-img" src="assets/img/skills/laravel.svg" alt="laravel" />
+        <div class="skills__container-name">Laravel</div>
+      </div>  
+
+      <div class="skills__container-box">
+        <img class="skills__container-img" src="assets/img/skills/git.svg" alt="git" />
+        <div class="skills__container-name">Git</div>
+      </div>
+
+      <div class="skills__container-box">
+        <img class="skills__container-img" src="assets/img/skills/github.svg" alt="github" />
+        <div class="skills__container-name">Github</div>
+      </div>
+
+      <div class="skills__container-box">
+        <img class="skills__container-img" src="assets/img/skills/photoshop.svg" alt="photoshop" />
+        <div class="skills__container-name">Photoshop</div>
+      </div>
+
+      <!-- <div class="skills__container-box">
+                <img class="skills__container-img" src="/assets/img/skills/figma.svg" alt="figma">
+                <div class="skills__container-name">Figma</div>
+      </div> -->
+
+    </div>
+
+
+  </section>
+
+  <!--==================== QUALIFICATOIN ====================-->
+
+  
+  <section class="qualification section">
+    <h2 class="section__title">Qualification</h2>
+    <span class="section__subtitle">My personal journey</span>
+
+    <div class="qualification__container container">
+      <div class="qualification__tabs">
+
+        <div class="qualification__button button--flex  qualification__active" data-target="#education">
+          <i class="uil uil-graduation-cap qualification__icon"> </i>
+          Education
+        </div>
+
+        <div class="qualification__button button--flex" data-target="#work">
+          <i class="uil uil-briefcase-alt qualification__icon"> </i> Freelancing
+        </div>
+
+
+      </div>
+
+      <div class="qualification__sections">
+  
+
+  <!--==================== QUALIFICATOIN CONTENT 1====================-->
+
+  <!--
+        <div class="qualification__content" data-content id="work">
+        -->
+
+  <!--==================== QUALIFICATOIN 1====================-->
+
+  <!--
+          <div class="qualification__data">
+            <div>
+              <h3 class="qualification__title">Work 1</h3>
+              <span class="qualification__subtitle"> Company </span>
+              <div class="qualification__calender">
+                <i class="uil uil-calendar-alt"></i> 2000-3000
+              </div>
+            </div>
+
+            <div>
+              <span class="qualification__rounder"></span>
+              <span class="qualification__line"></span>
+            </div>
+          </div>
+          -->
+
+  <!--==================== QUALIFICATOIN 2====================-->
+
+  <!--
+          <div class="qualification__data">
+            <div>
+              <h3 class="qualification__title">Work 1</h3>
+              <span class="qualification__subtitle"> Company </span>
+              <div class="qualification__calender">
+                <i class="uil uil-calendar-alt"></i> 2000-3000
+              </div>
+            </div>
+
+            <div>
+              <span class="qualification__rounder"></span>
+              <span class="qualification__line"></span>
+            </div>
+          </div>
+          -->
+
+  <!--==================== QUALIFICATOIN 3====================-->
+
+  <!--
+          <div class="qualification__data">
+            <div>
+              <h3 class="qualification__title">Work 1</h3>
+              <span class="qualification__subtitle"> Company </span>
+              <div class="qualification__calender">
+                <i class="uil uil-calendar-alt"></i> 2000-3000
+              </div>
+            </div>
+
+            <div>
+              <span class="qualification__rounder"></span>
+              <span class="qualification__line"></span>
+            </div>
+          </div>
+          -->
+
+  <!--==================== QUALIFICATOIN 4====================-->
+
+  <!--
+          <div class="qualification__data">
+            <div>
+              <h3 class="qualification__title">Work 1</h3>
+              <span class="qualification__subtitle"> Company </span>
+              <div class="qualification__calender">
+                <i class="uil uil-calendar-alt"></i> 2000-3000
+              </div>
+            </div>
+
+            <div>
+              <span class="qualification__rounder"></span>
+              <span class="qualification__line"></span>
+            </div>
+          </div>
+          -->
+
+  <!--==================== QUALIFICATOIN CONTENT 2====================-->
+  
+      <div class="qualification__content qualification__active" data-content id="education">
+         
+
+  <!--==================== QUALIFICATOIN 1====================-->
+
+  
+          <div class="qualification__data">
+            <div>
+              <h3 class="qualification__title">Bachelor of Science in Computer Science</h3>
+              <span class="qualification__subtitle">
+                Cavite State Unversity
+              </span>
+              <div class="qualification__calender">
+                <i class="uil uil-calendar-alt"></i> 2021-2025
+              </div>
+            </div>
+
+            <div>
+              <span class="qualification__rounder"></span>
+              <span class="qualification__line"></span>
+            </div>
+          </div>
+         
+
+  <!--==================== QUALIFICATOIN 2====================-->
+  
+          <div class="qualification__data">
+            <div></div>
+            <div>
+              <span class="qualification__rounder"></span>
+            </div>
+            <div>
+              <h3 class="qualification__title">Science Technology Engineering and Mathematics</h3>
+              <span class="qualification__subtitle"> General Mariano Alvarez Technical Highschool</span>
+              <div class="qualification__calender">
+                <i class="uil uil-calendar-alt"></i> 2019-2021
+              </div>
+            </div>
+          </div>
+
+
+    <!--==================== QUALIFICATOIN 3====================-->
+  
+
+    <div class="qualification__data">
+      <div>
+        <h3 class="qualification__title">Junior High School</h3>
+        <span class="qualification__subtitle"> General Mariano Alvarez Technical Highschool</span>
+        <div class="qualification__calender">
+          <i class="uil uil-calendar-alt"></i> 2015-2019
+        </div>
+      </div>
+
+      <div>
+        <span class="qualification__rounder"></span>
+        <span class="qualification__line"></span>
+      </div>
+    </div>
+
+
+      <!--==================== QUALIFICATOIN 4====================-->
+  
+      <div class="qualification__data">
+        <div></div>
+        <div>
+          <span class="qualification__rounder"></span>
+        </div>
+        <div>
+          <h3 class="qualification__title">Elementary</h3>
+          <span class="qualification__subtitle"> Ab-Abut Elementary School</span>
+          <div class="qualification__calender">
+            <i class="uil uil-calendar-alt"></i> 2008-2015
+          </div>
+        </div>
+      </div>
+
+      </div>
+    </div>
+    </div>
+
+</section>
+
+
+  <!--==================== SERVICES ====================-->
+
+  <section class="services section reveal fade-bottom" id="services">
+    <h2 class="section__title">Services</h2>
+    <span class="section__subtitle">What I offer</span>
+
+    <div class="services__container container grid">
+
+
+
+      <!--==================== SERVICE 1 ====================-->
+
+      <div class="services__content">
+        <div>
+          <i class="uil uil-desktop services__icon"></i>
+          <h3 class="services__title">Web Application<br />Development</h3>
+        </div>
+
+        <span class="button button--flex button--small button--link services__button">
+          Read More
+          <i class="uil uil-arrow-right button__icon"></i>
+        </span>
+
+        <div class="services__modal">
+          <div class="services__modal-content">
+            <h4 class="services__modal-title">Web Application Development</h4>
+            <i class="uil uil-times services__modal-close"></i>
+            <ul class="services__modal-services grid">
+
+              <li class="services__modal-service">
+                <i class="uil uil-check services__modal-icon"></i>
+                <p>
+                  I develop web applications with end to end solutions for
+                  frontend and backend using PHP, JavaScript, along with SQL.
+                </p>
+              </li>
+
+              <li class="services__modal-service">
+                <i class="uil uil-check services__modal-icon"></i>
+                <p>I specialize in designing user-friendly web applications using Bootstrap, Node packages, Photoshop for the graphics
+                , to enhance overall aesthetics and improve user experience.
+                </p>
+              </li>
+
+              <li class="services__modal-service">
+                <i class="uil uil-check services__modal-icon"></i>
+                <p>I handle web deployment using different hosting platforms.</p>
+              </li>
+
+              <!-- <li class="services__modal-service">
+                <i class="uil uil-check services__modal-icon"></i>
+                <p>I optimize desktop application performance.</p>
+              </li> -->
+
+              <!--
+              <li class="services__modal-service">
+                <i class="uil uil-check services__modal-icon"></i>
+                <p>I've catered to diverse client needs in freelance desktop application projects, including personal projects, school assignments/activities, and capstone/thesis work.
+                </p>
+              </li>   
+              -->
+
+            </ul>
+          </div>
+        </div>
+      </div>
+
+
+
+      <!--==================== SERVICE 2 ====================-->
+      <div class="services__content">
+        <div>
+          <i class="uil uil-desktop services__icon"></i>
+          <h3 class="services__title">2D Game Development</h3>
+        </div>
+
+        <span class="button button--flex button--small button--link services__button">
+          Read More
+          <i class="uil uil-arrow-right button__icon"></i>
+        </span>
+
+        <div class="services__modal">
+          <div class="services__modal-content">
+            <h4 class="services__modal-title"></h4>Game Development</h4>
+            <button class="services__modal-close" onclick="closeModal()">&times;</button>
+            <ul class="services__modal-services grid">
+
+              <li class="services__modal-service">
+                <i class="uil uil-check services__modal-icon"></i>
+                <p>I develop games using a game engine called GODOT, along with
+                  usign GDScript as main programming language while utilizing Photoshop for graphics and assets of the game.</p>
+              </li>
+
+              <li class="services__modal-service">
+                <i class="uil uil-check services__modal-icon"></i>
+                <p>I create games that compatible for mobile and computers.</p>
+              </li>
+
+              <li class="services__modal-service">
+                <i class="uil uil-check services__modal-icon"></i>
+                <p>I optimize the games performances.</p>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+
+
+
+
+  <!--==================== PROJECTS ====================-->
+
+  <section class="projects section reveal fade-bottom" id="projects">
+    <h2 class="section__title">Projects</h2>
+    <span class="section__subtitle">Some Things I've Built</span>
+
+
+    <div class="swiper plang__btn_swiper">
+      <div class="swiper-wrapper">
+
+        <!-- Swipper Button 1 -->
+        <div class="swiper-slide plang__card_btn">
+          <ul class="plang__tabs">
+            <!-- Items Inside -->
+            <li class="plang__tabs_item">
+              <button type="button" class="plang__button_link active"
+                onclick="showTab('java-content', this); changeBackgroundImage('assets/img/skills/java.svg')">
+                <i class="material-icons">code</i>Java
+            </li>
+          </ul>
+        </div>
+
+        <!-- Swipper Button 2 -->
+        <div class="swiper-slide plang__card_btn">
+          <ul class="plang__tabs">
+            <!-- Items Inside -->
+            <li class="plang__tabs_item">
+              <button type="button" class="plang__button_link"
+                onclick="showTab('vb-content', this); changeBackgroundImage('assets/img/skills/vb.net.svg')"><i
+                  class="material-icons">code</i>VB</button>
+            </li>
+          </ul>
+        </div>        
+
+        <!-- Swipper Button 3 -->
+        <div class="swiper-slide plang__card_btn">
+          <ul class="plang__tabs">
+            <!-- Items Inside -->
+            <li class="plang__tabs_item">
+              <button type="button" class="plang__button_link"
+                onclick="showTab('cpp-content', this); changeBackgroundImage('assets/img/skills/c++.svg')">
+                <i class="material-icons">code</i>C++</button>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Swipper Button 4 -->
+        <div class="swiper-slide plang__card_btn">
+          <ul class="plang__tabs">
+            <!-- Items Inside -->
+            <li class="plang__tabs_item">
+              <button type="button" class="plang__button_link"
+                onclick="showTab('c-content', this); changeBackgroundImage('assets/img/skills/c.svg')"><i
+                  class="material-icons">code</i>C</button>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Swipper Button 5 -->
+        <div class="swiper-slide plang__card_btn">
+          <ul class="plang__tabs">
+            <!-- Items Inside -->
+            <li class="plang__tabs_item">
+              <button type="button" class="plang__button_link"
+                onclick="showTab('webdev-content', this); changeBackgroundImage('assets/img/skills/html.svg')"><i
+                  class="material-icons">code</i>Web</button>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="swiper-button-next plangSWIPER__button_next">
+        <i class="uil uil-angle-right plang__arrow_icon"></i>
+      </div>
+      <div class="swiper-button-prev plangSWIPER__button_prev">
+        <i class="uil uil-angle-left plang__arrow_icon"></i>
+      </div>
+
+    </div>
+
+
+
+
+    <!-- WHOLE Tab Content -->
+    <div id="plang__tabContent">
+
+      <img class="projects__background" src="assets/img/skills/java.svg" alt="Background Image">
+
+
+      <!-- Java Tab Content -->
+      <div class="plang__tab_content active" id="java-content">
+
+
+        <!-- LIST OF PROJECTS CONTAINER -->
+        <div class="projects__container container swiper">
+
+          <!-- swiper wrapper -->
+          <div class="swiper-wrapper">
+
+
+            <!--==================== PROJECT 1 ====================-->
+            <div class="projects__content grid swiper-slide">
+              <img
+                src="https://raw.githubusercontent.com/emmanpbarrameda/MUMC-ChurchMgmtSystem_Java-PREVIEW/main/output-folder/console-video2.gif"
+                alt="Preview" class="projects__img" />
+              <div class="projects__data">
+                <h3 class="projects__title">MUMC Membership and Transaction Mgmt. System</h3>
+                <p class="projects__description">
+                  MUMC Membership and Transaction Mgmt. System created using Java Swing with MySQL Database.
+                </p>
+                <a href="https://github.com/emmanpbarrameda/MUMC-ChurchMgmtSystem_Java-PREVIEW" target="_blank"
+                  class="button button--flex button--small projects__button">
+                  Read More
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+
+            <!--==================== PROJECT 2 ====================-->
+            <div class="projects__content grid swiper-slide">
+              <img
+                src="https://raw.githubusercontent.com/emmanpbarrameda/ZABSystem_Java-CODE/main/output-media/console_video.gif"
+                alt="Preview" class="projects__img" />
+              <div class="projects__data">
+                <h3 class="projects__title">ZAB System</h3>
+                <p class="projects__description">
+                  Zodiac Sign, Age and Birthstone System created using Java Swing.
+                </p>
+                <a href="https://github.com/emmanpbarrameda/ZABSystem_Java-CODE" target="_blank"
+                  class="button button--flex button--small projects__button">
+                  Read More
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+
+            <!--==================== PROJECT 3 ====================-->
+            <div class="projects__content grid swiper-slide">
+              <img
+                src="https://raw.githubusercontent.com/emmanpbarrameda/HSSG-EmpMgmtSystem_Java-PREVIEW/main/output-media/console_video2.gif"
+                alt="Preview" class="projects__img" />
+              <div class="projects__data">
+                <h3 class="projects__title">HSSG Employee Management System</h3>
+                <p class="projects__description">
+                  HSSG Employee Management System created using Java Swing with Database.
+                </p>
+                <a href="https://github.com/emmanpbarrameda/HSSG-EmpMgmtSystem_Java-PREVIEW" target="_blank"
+                  class="button button--flex button--small projects__button">
+                  Read More
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+
+            <!--==================== PROJECT 4 ====================-->
+            <div class="projects__content grid swiper-slide">
+              <img
+                src="https://raw.githubusercontent.com/emmanpbarrameda/EmployeePayrollManagementSystem_Java-CODE/main/output-media/console-image3.png"
+                alt="Preview" class="projects__img" />
+              <div class="projects__data">
+                <h3 class="projects__title">Employee Payroll Management System</h3>
+                <p class="projects__description">
+                  Employee Payroll Mgmt. System created using Java Swing with Database.
+                </p>
+                <a href="https://github.com/emmanpbarrameda/EmployeePayrollManagementSystem_Java-CODE" target="_blank"
+                  class="button button--flex button--small projects__button">
+                  Read More
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+
+            <!--==================== PROJECT 5 ====================-->
+            <div class="projects__content grid swiper-slide">
+              <img
+                src="https://raw.githubusercontent.com/emmanpbarrameda/CTSSystem_Java-CODE/main/output-media/console_video.gif"
+                alt="Preview" class="projects__img" />
+              <div class="projects__data">
+                <h3 class="projects__title">CTS System</h3>
+                <p class="projects__description">
+                  Clock, Timer and Stopwatch System created using Java Swing with Database.
+                </p>
+                <a href="https://github.com/emmanpbarrameda/CTSSystem_Java-CODE" target="_blank"
+                  class="button button--flex button--small projects__button">
+                  Read More
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+          </div> <!-- swiper wrapper -->
+
+          <!-- Add arrows -->
+          <div class="swiper-button-next">
+            <i class="uil uil-angle-right-b swiper-projects-icon"></i>
+          </div>
+          <div class="swiper-button-prev">
+            <i class="uil uil-angle-left-b swiper-projects-icon"></i>
+          </div>
+
+          <!-- Add Pagination -->
+          <div class="swiper-pagination"></div>
+
+        </div><!-- LIST OF PROJECTS CONTAINER -->
+
+
+      </div><!-- Java Tab Content -->
+
+
+
+
+      <!-- VB Tab Content -->
+      <div class="plang__tab_content" id="vb-content">
+
+        <!-- LIST OF PROJECTS CONTAINER -->
+        <div class="projects__container container swiper">
+
+          <!-- swiper wrapper -->
+          <div class="swiper-wrapper">
+
+
+            <!--==================== PROJECT 1 ====================-->
+            <div class="projects__content grid swiper-slide">
+              <img
+                src="https://raw.githubusercontent.com/emmanpbarrameda/SalonReservationMgmtSystem_VB.NET-SAMPLE/main/output/ui_video.gif"
+                alt="Preview" class="projects__img" />
+              <div class="projects__data">
+                <h3 class="projects__title">Salon Reservation Mgmt. System</h3>
+                <p class="projects__description">
+                  Rach Salon Reservation Mgmt. System created using VB.NET with MySQL Database.
+                </p>
+                <a href="https://github.com/emmanpbarrameda/SalonReservationMgmtSystem_VB.NET-SAMPLE" target="_blank"
+                  class="button button--flex button--small projects__button">
+                  Read More
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+
+            <!--==================== PROJECT 2 ====================-->
+            <div class="projects__content grid swiper-slide">
+              <img
+                src="https://raw.githubusercontent.com/emmanpbarrameda/Log4Net_VB.NET-GUI/main/output/ui_log4net.gif"
+                alt="Preview" class="projects__img" />
+              <div class="projects__data">
+                <h3 class="projects__title">Log4Net Visual Basic .NET</h3>
+                <p class="projects__description">
+                  Basic Loggings on VB.NET using Log4Net Library.
+                </p>
+                <a href="https://github.com/emmanpbarrameda/Log4Net_VB.NET-GUI" target="_blank"
+                  class="button button--flex button--small projects__button">
+                  Read More
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!--==================== PROJECT 3 ====================-->
+            <div class="projects__content grid swiper-slide">
+              <img
+                src="https://raw.githubusercontent.com/emmanpbarrameda/Add2Cart_VB.NET-GUI/main/output/ui_add2cart.gif"
+                alt="Preview" class="projects__img" />
+              <div class="projects__data">
+                <h3 class="projects__title">Add2Cart Feature VB.NET</h3>
+                <p class="projects__description">
+                  Add2Cart Feature on VB.NET with Managing Stocks and Reports.
+                </p>
+                <a href="https://github.com/emmanpbarrameda/Log4Net_VB.NET-GUI" target="_blank"
+                  class="button button--flex button--small projects__button">
+                  Read More
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+
+
+          </div><!-- swiper wrapper -->
+
+          <!-- Add arrows -->
+          <div class="swiper-button-next">
+            <i class="uil uil-angle-right-b swiper-projects-icon"></i>
+          </div>
+          <div class="swiper-button-prev">
+            <i class="uil uil-angle-left-b swiper-projects-icon"></i>
+          </div>
+
+          <!-- Add Pagination -->
+          <div class="swiper-pagination"></div>
+
+        </div><!-- LIST OF PROJECTS CONTAINER -->
+
+      </div><!-- VB Tab Content -->
+
+
+
+
+      <!-- C++ Tab Content -->
+      <div class="plang__tab_content" id="cpp-content">
+
+
+        <!-- LIST OF PROJECTS CONTAINER -->
+        <div class="projects__container container swiper">
+
+          <!-- swiper wrapper -->
+          <div class="swiper-wrapper">
+
+
+            <!--==================== PROJECT 1 ====================-->
+            <div class="projects__content grid swiper-slide">
+              <img
+                src="https://raw.githubusercontent.com/emmanpbarrameda/Area-Console-Calculator_Cpp-Console/main/AreaComputationProgram_Emman/output-media/console_video.gif"
+                alt="Preview" class="projects__img" />
+              <div class="projects__data">
+                <h3 class="projects__title">Area Console Calculator</h3>
+                <p class="projects__description">
+                  Area of Rectangle, Square, Triangle and Circle Console Calculator Program created using C++ Language.
+                </p>
+                <a href="https://github.com/emmanpbarrameda/Area-Console-Calculator_Cpp-Console" target="_blank"
+                  class="button button--flex button--small projects__button">
+                  Read More
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+
+            <!--==================== PROJECT 2 ====================-->
+            <div class="projects__content grid swiper-slide">
+              <img
+                src="https://raw.githubusercontent.com/emmanpbarrameda/Simple-Payroll-System_Cpp-Console/main/PayrollSystem_Emman/output-media/console_screenshot.png"
+                alt="Preview" class="projects__img" />
+              <div class="projects__data">
+                <h3 class="projects__title">Simple Employee Payroll System</h3>
+                <p class="projects__description">
+                  Simple Employee Payroll Console Program created using C++ Language.
+                </p>
+                <a href="https://github.com/emmanpbarrameda/Simple-Payroll-System_Cpp-Console" target="_blank"
+                  class="button button--flex button--small projects__button">
+                  Read More
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+
+            <!--==================== PROJECT 3 ====================-->
+            <div class="projects__content grid swiper-slide">
+              <img
+                src="https://raw.githubusercontent.com/emmanpbarrameda/Grading-Remarks-System_Cpp-Console/main/GradingSystemRemarks_Emman/output-media/console_screenshot.png"
+                alt="Preview" class="projects__img" />
+              <div class="projects__data">
+                <h3 class="projects__title">Grading Remarks System</h3>
+                <p class="projects__description">
+                  Grading Remarks Console Program created using C++ Language.
+                </p>
+                <a href="https://github.com/emmanpbarrameda/Grading-Remarks-System_Cpp-Console" target="_blank"
+                  class="button button--flex button--small projects__button">
+                  Read More
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+
+            <!--==================== PROJECT 4 ====================-->
+            <div class="projects__content grid swiper-slide">
+              <img
+                src="https://raw.githubusercontent.com/emmanpbarrameda/Bubble-Sort_Cpp-Console/main/BubbleSortConsole_Emman/output-media/console_video.gif"
+                alt="Preview" class="projects__img" />
+              <div class="projects__data">
+                <h3 class="projects__title">Bubble Sort</h3>
+                <p class="projects__description">
+                  Bubble Sorting Console Program created using C++ Language.
+                </p>
+                <a href="https://github.com/emmanpbarrameda/Bubble-Sort_Cpp-Console" target="_blank"
+                  class="button button--flex button--small projects__button">
+                  Read More
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+
+            <!--==================== PROJECT 5 ====================-->
+            <div class="projects__content grid swiper-slide">
+              <img
+                src="https://raw.githubusercontent.com/emmanpbarrameda/Simple-Calculator_Cpp-Console/main/SimpleConsoleCalculator_Emman/output-media/console_video.gif"
+                alt="Preview" class="projects__img" />
+              <div class="projects__data">
+                <h3 class="projects__title">Simple Console Based Calculator</h3>
+                <p class="projects__description">
+                  Simple Calculator Console Program created using C++ Language.
+                </p>
+                <a href="https://github.com/emmanpbarrameda/Simple-Calculator_Cpp-Console" target="_blank"
+                  class="button button--flex button--small projects__button">
+                  Read More
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+
+          </div><!-- swiper wrapper -->
+
+          <!-- Add arrows -->
+          <div class="swiper-button-next">
+            <i class="uil uil-angle-right-b swiper-projects-icon"></i>
+          </div>
+          <div class="swiper-button-prev">
+            <i class="uil uil-angle-left-b swiper-projects-icon"></i>
+          </div>
+
+          <!-- Add Pagination -->
+          <div class="swiper-pagination"></div>
+
+        </div><!-- LIST OF PROJECTS CONTAINER -->
+
+
+      </div><!-- C++ Tab Content -->
+
+
+
+
+
+
+      <!-- C Tab Content -->
+      <div class="plang__tab_content" id="c-content">
+
+        <!-- LIST OF PROJECTS CONTAINER -->
+        <div class="projects__container container swiper">
+
+          <!-- swiper wrapper -->
+          <div class="swiper-wrapper">
+
+
+            <!--==================== PROJECT 1 ====================-->
+            <div class="projects__content grid swiper-slide">
+              <img
+                src="https://raw.githubusercontent.com/emmanpbarrameda/SimNumber-prefix-finder_C-Language/main/SimNumber-prefix-finder_C-Language/output-media/console_video.gif"
+                alt="Preview" class="projects__img" />
+              <div class="projects__data">
+                <h3 class="projects__title">SimCard Number Prefix Finder</h3>
+                <p class="projects__description">
+                  SimCard Phone Number Prefix/Network Finder Console System created using C Language.
+                </p>
+                <a href="https://github.com/emmanpbarrameda/SimNumber-prefix-finder_C-Language" target="_blank"
+                  class="button button--flex button--small projects__button">
+                  Read More
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!--==================== PROJECT 2 ====================-->
+            <div class="projects__content grid swiper-slide">
+              <img
+                src="https://raw.githubusercontent.com/emmanpbarrameda/MetersToKM_HoursToSeconds-Calculator_C-Language/main/MetersToKM_HoursToSeconds-Calculator_C-Language/output-media/console_video.gif"
+                alt="Preview" class="projects__img" />
+              <div class="projects__data">
+                <h3 class="projects__title">Meters to KM & Hours to Seconds Calculator</h3>
+                <p class="projects__description">
+                  Console Based Calculator for Meters to KM and Hours to Seconds created using C Language.
+                </p>
+                <a href="https://github.com/emmanpbarrameda/MetersToKM_HoursToSeconds-Calculator_C-Language"
+                  target="_blank" class="button button--flex button--small projects__button">
+                  Read More
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+          </div><!-- swiper wrapper -->
+
+          <!-- Add arrows -->
+          <div class="swiper-button-next">
+            <i class="uil uil-angle-right-b swiper-projects-icon"></i>
+          </div>
+          <div class="swiper-button-prev">
+            <i class="uil uil-angle-left-b swiper-projects-icon"></i>
+          </div>
+
+          <!-- Add Pagination -->
+          <div class="swiper-pagination"></div>
+
+        </div><!-- LIST OF PROJECTS CONTAINER -->
+
+
+      </div><!-- C Tab Content -->
+
+
+
+
+
+      <!-- WEBDEV Content -->
+      <div class="plang__tab_content" id="webdev-content">
+
+        <!-- LIST OF PROJECTS CONTAINER -->
+        <div class="projects__container container swiper">
+
+          <!-- swiper wrapper -->
+          <div class="swiper-wrapper">
+
+
+            <!--==================== PROJECT 1 ====================-->
+            <div class="projects__content grid swiper-slide">
+              <img src="https://raw.githubusercontent.com/emmanpbarrameda/GIT.RAWify/main/output/screen_record_gif2.gif"
+                alt="Preview" class="projects__img" />
+              <div class="projects__data">
+                <h3 class="projects__title">GIT-RAWify</h3>
+                <p class="projects__description">
+                  Convert GitHub Link to Raw Link
+                </p>
+                <a href="https://git-rawify.vercel.app/"
+                  target="_blank" class="button button--flex button--small projects__button">
+                  Visit
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+          </div><!-- swiper wrapper -->
+
+          <!-- Add arrows -->
+          <div class="swiper-button-next">
+            <i class="uil uil-angle-right-b swiper-projects-icon"></i>
+          </div>
+          <div class="swiper-button-prev">
+            <i class="uil uil-angle-left-b swiper-projects-icon"></i>
+          </div>
+
+          <!-- Add Pagination -->
+          <div class="swiper-pagination"></div>
+
+        </div><!-- LIST OF PROJECTS CONTAINER -->
+
+      </div><!-- WEB DEV Content -->
+
+
+
+
+    </div><!-- WHOLE Tab Content -->
+
+
+
+
+  </section>
+
+  <!--==================== PROJECT IN MIND ====================-->
+
+  <section class="project-invite section">
+    <div class="project-invite__bg">
+      <div class="project-invite__container container grid reveal fade-bottom">
+        <div class="project-invite__data">
+          <h2 class="project-invite__title">Empower Your Projects</h2>
+          <p class="project-invite__description">
+            Seeking a skilled desktop application developer for your school assignments, personal or company projects,
+            or for your thesis/capstone? As a student freelancer, I offer exceptional solutions. Let's collaborate for
+            project success!
+          </p>
+          <a href="#contact" class="button button--flex button--white">
+            Contact Me
+            <i class="uil uil-message project-invite__icon button__icon"></i>
+          </a>
+        </div>
+
+        <img src="assets/img/code-svg.svg" alt="" class="project-invite__img" />
+      </div>
+    </div>
+  </section>
+
+
+
+  
+  <!--==================== CONTACT ME ====================-->
+
+  <section class="contact section reveal fade-bottom" id="contact">
+    <h2 class="section__title">Contact Me</h2>
+    <span class="section__subtitle">Get in touch</span>
+
+
+    <div class="contact__container container grid">
+
+
+      <!--==================== TABS ====================-->
+
+      <div class="contactinfo__container container">
+        <div class="contactinfo__tabs">
+
+          <div class="contactinfo__button contact-button button--flex contactinfo__active" data-target="#basic">
+            <i class="uil uil-envelope-info contactinfo__icon"> </i> Contact
+          </div>
+
+          <div class="contactinfo__button social-button button--flex" data-target="#social">
+            <i class="uil uil-globe contactinfo__icon"> </i>
+            Social
+          </div>
+
+        </div>
+
+        <div class="contactinfo__sections">
+
+          <!--==================== CONTACTINFO BASIC CONTACT CONTENT====================-->
+          <div class="contactinfo__content contactinfo__active" data-content id="basic">
+
+
+            <!--====================CONTACT INFORMATION====================-->
+            <div class="contact__information">
+              <i class="uil uil-phone contact__icon"></i>
+              <div>
+                <h3 class="contact__title">Call Me</h3>
+                <span class="contact__subtitle">+63 929 416 2224</span>
+              </div>
+            </div>
+
+            <div class="contact__information">
+              <i class="uil uil-envelope contact__icon"></i>
+              <div>
+                <h3 class="contact__title">Email</h3>
+                <!--CLICKABLE LINK <a> -->
+                <a href="" class="email_Link" target="_blank" title="click to mail me">
+                  <span class="contact__subtitle">emmanuelbarrameda1@gmail.com</span>
+                </a>
+
+              </div>
+            </div>
+
+            <div class="contact__information">
+              <i class="uil uil-location-arrow contact__icon"></i>
+              <div>
+                <h3 class="contact__title">Location</h3>
+                <!--CLICKABLE LINK <a> -->
+                <a href="https://goo.gl/maps/5W7LSuStky3qR7Mh9" class="location_Link" target="_blank"
+                  title="click to visit">
+                  <span class="contact__subtitle">Rizal, Philippines</span>
+                </a>
+              </div>
+            </div>
+
+          </div>
+
+
+
+          <!--==================== CONTACTINFO SOCIAL CONTENT====================-->
+          <div class="contactinfo__content" data-content id="social">
+
+            <!--====================SOCIAL MEDIA====================-->
+            <div class="contact__information">
+              <i class="uil uil-facebook contact__icon"></i>
+              <div>
+                <h3 class="contact__title">Facebook</h3>
+                <!--CLICKABLE LINK <a> -->
+                <a href="" class="facebook_Link" target="_blank">
+                  <span class="contact__subtitle">emmanpbarrameda</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="contact__information">
+              <i class="uil uil-instagram contact__icon"></i>
+              <div>
+                <h3 class="contact__title">Instagram</h3>
+                <!--CLICKABLE LINK <a> -->
+                <a href="" class="instagram_Link" target="_blank">
+                  <span class="contact__subtitle">emmanpbarrameda</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="contact__information">
+              <i class="uil uil-github contact__icon"></i>
+              <div>
+                <h3 class="contact__title">Github</h3>
+                <!--CLICKABLE LINK <a> -->
+                <a href="" class="github_Link" target="_blank">
+                  <span class="contact__subtitle">emmanpbarrameda</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="contact__information">
+              <i class="uil uil-linkedin-alt contact__icon"></i>
+              <div>
+                <h3 class="contact__title">LinkedIn</h3>
+                <!--CLICKABLE LINK <a> -->
+                <a href="" class="linkedin_Link" target="_blank">
+                  <span class="contact__subtitle">emmanpbarrameda</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="contact__information">
+              <i class="uil uil-telegram-alt contact__icon"></i>
+              <div>
+                <h3 class="contact__title">Telegram</h3>
+                <!--CLICKABLE LINK <a> -->
+                <a href="" class="telegram_Link" target="_blank">
+                  <span class="contact__subtitle">emmanpbarrameda</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="contact__information">
+              <i class="uil uil-youtube contact__icon"></i>
+              <div>
+                <h3 class="contact__title">YouTube Channels</h3>
+                <!--CLICKABLE LINK <a> -->
+                <a href="" class="youtube_Link" target="_blank">
+                  <span class="contact__subtitle">emmanpbarrameda</span>
+                </a>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+
+
+      <form action="" class="contact__form grid reveal fade-bottom" method="POST">
+        <!-- FORMS BELOW -->
+        <div class="contact__inputs grid">
+          <div class="contact__content">
+            <label for="name" class="contact__label">Name</label>
+            <input type="text" id="name__SendEmail" class="contact__input" placeholder="  " required
+              autocomplete="name">
+          </div>
+
+          <div class="contact__content">
+            <label for="email" class="contact__label">Email</label>
+            <input type="email" id="email__SendEmail" class="contact__input" placeholder="  " required>
+          </div>
+        </div>
+
+        <div class="contact__content">
+          <label for="project" class="contact__label">Title/Project Title</label>
+          <input type="text" id="project__SendEmail" class="contact__input" placeholder="  " required
+            autocomplete="subject">
+        </div>
+
+        <div class="contact__content">
+          <label for="message" class="contact__label">Message</label>
+          <textarea id="message__SendEmail" name="message" cols="0" rows="5" class="contact__input" placeholder="  "
+            required></textarea>
+        </div>
+
+        <!-- AVAILABILITY -->
+        <!-- AVAILABILITY -->
+        <div class="contact-availability__information">
+          <div>
+            <h3 class="contact-availability__title">Freelancing Availability</h3>
+            <span class="contact-availability__subtitle"> <i class="uil contact-availability__icon"></i>
+              Available</span> <!-- Available / Not Available / Busy -->
+          </div>
+        </div>
+
+        <!-- SEND MESSAGE BUTTON -->
+        <button type="submit" id="btn__SendEmail" class="btn__Email button button--flex">
+          Send Message
+          <i class="uil uil-message button__icon"></i>
+        </button>
+
+        <!-- reCAPTCHA POLICY -->
+        <small>This site is protected by reCAPTCHA and the Google
+          <a href="https://policies.google.com/privacy" class="color__text_highlight">Privacy Policy</a> and
+          <a href="https://policies.google.com/terms" class="color__text_highlight">Terms of Service</a> apply.
+        </small>
+
+
+      </form>
+
+    </div>
+
+
+  </section>
+
+
+
+  <!--==================== FOOTER ====================-->
+
+  <footer class="footer">
+
+    <div class="footer__bg">
+      <div class="footer__container container grid">
+
+        <!--
+        <div>
+          <h1 class="footer__title">Emman</h1>
+          <span class="footer__subtitle">P. Barrameda</span>
+        </div>
+        -->
+
+        <div class="footer__logo_container">
+          <img class="footer__logo_image" src="assets/img/emmanpbarrameda-logo-1x1-white_transparent_svg.svg"
+            alt="footer logo">
+        </div>
+
+
+        <ul class="footer__links">
+          <li>
+            <a href="#home" class="footer__link">Home</a>
+          </li>
+          <li>
+            <a href="#services" class="footer__link">Services</a>
+          </li>
+          <li>
+            <a href="#projects" class="footer__link">Projects</a>
+          </li>
+          <li>
+            <a href="#contact" class="footer__link">Contact</a>
+          </li>
+        </ul>
+
+        <div class="footer__socials">
+
+          <a href="" target="_blank" class="footer__social basiccontact" title="Contact Information">
+            <i class="uil uil-envelope-info"></i>
+          </a>
+
+          <a href="" target="_blank" class="footer__social socialmedia" title="Social Media">
+            <i class="uil uil-globe"></i>
+          </a>
+
+        </div>
+      </div>
+
+      <p class="footer__copy"><span id="current-viewers"></span><br>Copyright © <span current-year></span> emmanpbarrameda<br>All rights reserved.</p>
+    </div>
+
+  </footer>
+
+  <!--==================== SCROLL TOP ====================-->
+  <a href="#home" class="scrollup" id="scroll-up" title="Scroll to Top">
+    <i class="uil uil-arrow-up scrollup__icon"></i>
+  </a>
+
+  <!--==================== SCROLL DOWN ====================-->
+  <a href="#about" class="scrolldown" id="scroll-down" title="Scroll to down">
+    <i class="uil uil-arrow-down scrolldown__icon"></i>
+  </a>
+
+  <!--==================== SWIPER JS ====================-->
+  <script src="assets/js/swiper-bundle.min.js"></script>
+
+  <!--==================== SMTP (For Senting Emails) ====================-->
+  <script src="assets/js/smtp.js"></script>
+
+  <!--==================== reCAPTCHA ====================-->
+  <!--
+  <script src="https://www.google.com/recaptcha/enterprise.js?render=6LdUccImAAAAALa1N3ue9L4t8SVRdA3adp2aziIF"></script>
+  -->
+  <script src="https://www.google.com/recaptcha/api.js?render=6LdUccImAAAAALa1N3ue9L4t8SVRdA3adp2aziIF"></script>
+
+  <!--==================== SVG INJECT ====================-->
+  <!--
+  <script src="assets/js/svg-inject.min.js"></script>  
+  -->
+
+  <!--==================== DISABLE WEB TOOLS ====================-->
+  <!-- https://github.com/theajack/disable-devtool/tree/master     --> 
+  <script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool'></script>    
+
+  <!--==================== MAIN JS ====================-->
+  <script src="assets/js/main.js"></script>
+
+  
+
+  <!--==================== FB MESSENGER CHAT PLUGIN CODE ====================-->
+  <div id="fb-root"></div>
+  
+  <!-- Your Chat Plugin code -->
+  <div id="fb-customer-chat" class="fb-customerchat">
+  </div>
+  
+  <script>
+    var chatbox = document.getElementById('fb-customer-chat');
+    chatbox.setAttribute("page_id", "103922242428420");
+    chatbox.setAttribute("attribution", "biz_inbox");
+  </script>
+  
+  <!-- Your SDK code -->
+  <script>
+    window.fbAsyncInit = function () {
+      FB.init({
+        xfbml: true,
+        version: 'v19.0'
+      });
+    };
+
+    (function (d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+
+  </script>
+
+
+  <!--==================== LINKS ====================-->
+  <script>
+    //LINKEDIN
+    var linkedin_Var = document.getElementsByClassName('linkedin_Link');
+    Array.from(linkedin_Var).forEach(function (linkElement) {
+      linkElement.href = 'https://www.linkedin.com/in/emmanpbarrameda/';
+    });
+
+    //GITHUB
+    var github_Var = document.getElementsByClassName('github_Link');
+    Array.from(github_Var).forEach(function (linkElement) {
+      linkElement.href = 'https://github.com/emmanpbarrameda';
+    });
+
+    //TELEGRAM
+    var telegram_Var = document.getElementsByClassName('telegram_Link');
+    Array.from(telegram_Var).forEach(function (linkElement) {
+      linkElement.href = 'https://t.me/emmanpbarrameda';
+    });
+
+    //FACEBOOK
+    var facebook_Var = document.getElementsByClassName('facebook_Link');
+    Array.from(facebook_Var).forEach(function (linkElement) {
+      linkElement.href = 'https://facebook.com/emmanpbarrameda';
+    });
+
+    //INSTAGRAM
+    var instagram_Var = document.getElementsByClassName('instagram_Link');
+    Array.from(instagram_Var).forEach(function (linkElement) {
+      linkElement.href = 'https://instagram.com/emmanpbarrameda';
+    });
+
+    //TWITTER
+    var twitter_Var = document.getElementsByClassName('twitter_Link');
+    Array.from(twitter_Var).forEach(function (linkElement) {
+      linkElement.href = 'https://twitter.com/emmanpbarrameda';
+    });
+
+    //YOUTUBE
+    var youtube_Var = document.getElementsByClassName('youtube_Link');
+    Array.from(youtube_Var).forEach(function (linkElement) {
+      linkElement.href = 'https://youtube.com/@emmanpbarrameda';
+    });
+
+    //EMAIL
+    var email_Var = document.getElementsByClassName('email_Link');
+    Array.from(email_Var).forEach(function (linkElement) {
+      linkElement.href = 'mailto:emmanuelbarrameda1@gmail.com';
+    });
+  </script>
+
+
+
+  <!-- ===================== SOCIALMEDIA CLICK ==================== -->
+  <script>
+    // Function to handle the click event on the socialmedia button
+    function handleSocialMediaClick(event) {
+      event.preventDefault(); // Prevent the default behavior of the link
+
+      // Contact Info Button Auto click
+      var divElement = document.querySelector('.social-button');
+
+      // Trigger a click event on the div
+      if (divElement) {
+        divElement.click();
+        console.log("contact info auto click")
+        divElement.scrollIntoView({ behavior: 'smooth' }); // Adjust the behavior as needed
+      }
+    }
+
+    // Add a click event listener to the socialmedia button
+    var socialMediaButton = document.querySelector('.socialmedia');
+    if (socialMediaButton) {
+      socialMediaButton.addEventListener('click', handleSocialMediaClick);
+    }
+  </script>
+
+
+
+  <!-- ===================== BASIC CONTACT CLICK ==================== -->
+  <script>
+    // Function to handle the click event on the basiccontact button
+    function handleBasicContactClick(event) {
+      event.preventDefault(); // Prevent the default behavior of the link
+
+      // Contact Info Button Auto click
+      var divElement = document.querySelector('.contact-button');
+
+      // Trigger a click event on the div
+      if (divElement) {
+        divElement.click();
+        console.log("contact info auto click")
+        divElement.scrollIntoView({ behavior: 'smooth' }); // Adjust the behavior as needed
+      }
+    }
+
+    // Add a click event listener to the basiccontact button
+    var BasicContactButton = document.querySelector('.basiccontact');
+    if (BasicContactButton) {
+      BasicContactButton.addEventListener('click', handleBasicContactClick);
+    }
+  </script>
+
+  <!-- ===================== SCROLL PROGRESS ANIMATION ==================== -->
+  <script>
+    window.addEventListener('scroll', function() {
+      const progressBar = document.querySelector('.scroll_progress');
+      const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+      const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      const scrolled = (scrollTop / scrollHeight) * 100;
+
+      // Set width of the progress bar based on scroll position
+      progressBar.style.width = `${scrolled}%`;
+    });
+  </script>
+
+  <!-- ===================== SHOW/HIDE LOADER ==================== -->
+  <script>
+
+    window.onload = function () {
+      var loadingElement = document.getElementById("loading");
+      loadingElement.style.display = "none";
+
+      // Contact Info Button Auto click
+      var divElement = document.querySelector('.contact-button');
+      // Trigger a click event on the div
+      if (divElement) {
+        divElement.click();
+        console.log("contact info auto click")
+      }
+    };
+
+  </script>
+
+  <!-- =====================REGISTER SERVICE WORKER================ -->
+  <script>
+    if ("serviceWorker" in navigator) {
+      window.addEventListener("load", function () {
+        navigator.serviceWorker
+          .register("/serviceWorker.js")
+          .then((res) => console.log("service worker registered successfully"))
+          .catch((err) => console.log("service worker not registered", err));
+      });
+    }
+  </script>
 </body>
+
 </html>
