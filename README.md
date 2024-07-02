@@ -65,7 +65,7 @@
     <img src="https://github-readme-stats.vercel.app/api?username=tapsivanneil&show_icons=true&count_private=true&theme=dark" alt="GitHub Stats" style="width: 30%">
   </a>
   
-  <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=tapsivanneil" alt="GitHub Streak" /></a>
+  <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=tapsivanneil&theme=dark" alt="GitHub Streak" /></a>
 </div>
 
 
