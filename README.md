@@ -65,9 +65,7 @@
     <img src="https://github-readme-stats.vercel.app/api?username=tapsivanneil&show_icons=true&count_private=true&theme=dark" alt="GitHub Stats" style="width: 30%">
   </a>
   
-  <a href="https://streak-stats.demolab.com/?user=tapsivanneil" style="flex-basis: 100%; text-decoration: none;">
-    <img src="https://streak-stats.demolab.com/?user=tapsivanneil&theme=dark" alt="GitHub Streak Stats" style="width: 30%">
-  </a>
+  <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=tapsivanneil" alt="GitHub Streak" /></a>
 </div>
 
 
@@ -77,7 +75,7 @@
 <!-- FIRST ROW -->
 | [@harvysdlc](https://github.com/harvysdlc) | [@JoshCaramat](https://github.com/JoshCaramat) | [@prncssll](https://github.com/prncssll) | [@carandave](https://github.com/happydeigh) |
 | --- | --- | --- | --- |
-| [<img src="https://avatars.githubusercontent.com/harvysdlc?s=100" width="100" height="100">](https://github.com/JoshCaramat) | [<img src="https://avatars.githubusercontent.com/prncssll?s=100" width="100" height="100">](https://github.com/prncssll) | [<img src="https://avatars.githubusercontent.com/RachQuio?s=100" width="100" height="100">](https://github.com/happydeigh) | [<img src="https://avatars.githubusercontent.com/carandave?s=100" width="100" height="100">](https://github.com/happydeigh) |
+| [<img src="https://avatars.githubusercontent.com/harvysdlc?s=100" width="100" height="100">](https://github.com/JoshCaramat) | [<img src="https://avatars.githubusercontent.com/prncssll?s=100" width="100" height="100">](https://github.com/prncssll) | [<img src="https://avatars.githubusercontent.com/prncssll?s=100" width="100" height="100">](https://github.com/happydeigh) | [<img src="https://avatars.githubusercontent.com/happydeigh?s=100" width="100" height="100">](https://github.com/happydeigh) |
 
 <!-- SECOND ROW -->
 <!--
