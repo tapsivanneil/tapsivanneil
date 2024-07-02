@@ -22,7 +22,7 @@
       <a href="https://tapsivanneil.github.io">
         <strong>Visit My Portfolio</strong>
         <br />
-        <img src="https://avatars.githubusercontent.com/u/67356375?v=4" alt="Profile Image" width="180" style="border-radius: 50%;" />
+        <img src="https://avatars.githubusercontent.com/u/tapsivanneil" alt="Profile Image" width="180" style="border-radius: 50%;" />
       </a>
       <br />
       <p>Check out <a href="https://tapsivanneil.github.io" target="_blank">my portfolio</a> to learn more about me!</p>
