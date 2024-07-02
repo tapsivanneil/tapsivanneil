@@ -73,7 +73,7 @@
 ## Friends
 
 <!-- FIRST ROW -->
-| [@harvysdlc](https://github.com/harvysdlc) | [@JoshCaramat](https://github.com/JoshCaramat) | [@prncssll](https://github.com/prncssll) | [@carandave](https://github.com/happydeigh) |
+| [@harvysdlc](https://github.com/harvysdlc) | [@JoshCaramat](https://github.com/JoshCaramat) | [@prncssll](https://github.com/prncssll) | [@happydeigh](https://github.com/happydeigh) |
 | --- | --- | --- | --- |
 | [<img src="https://avatars.githubusercontent.com/harvysdlc?s=100" width="100" height="100">](https://github.com/JoshCaramat) | [<img src="https://avatars.githubusercontent.com/prncssll?s=100" width="100" height="100">](https://github.com/prncssll) | [<img src="https://avatars.githubusercontent.com/prncssll?s=100" width="100" height="100">](https://github.com/happydeigh) | [<img src="https://avatars.githubusercontent.com/happydeigh?s=100" width="100" height="100">](https://github.com/happydeigh) |
 
@@ -91,7 +91,7 @@
 &nbsp;&nbsp;
 <a href="mailto:tapsivanneil@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Email-%20-red?style=for-the-badge&logo=gmail"></a>
 &nbsp;&nbsp;
-<a href="https://facebook.com/tapsivanneil/" target="_blank"><img src="https://img.shields.io/badge/Facebook-%20-blue?style=for-the-badge&logo=facebook"></a>
+<a href="https://www.facebook.com/tapss.bautistaivanneil/" target="_blank"><img src="https://img.shields.io/badge/Facebook-%20-blue?style=for-the-badge&logo=facebook"></a>
 &nbsp;&nbsp;
 <a href="https://t.me/tapsivanneil/" target="_blank"><img src="https://img.shields.io/badge/Telegram-%20-blue?style=for-the-badge&logo=telegram"></a>
 &nbsp;&nbsp;
